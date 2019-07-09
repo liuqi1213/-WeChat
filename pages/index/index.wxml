@@ -1,0 +1,11 @@
+
+<view class="con">
+<view class="head">
+<v-epsoide class="epsoide" index="{{resData.index}}"/>
+<v-like class="like" count="{{resData.fav_nums}}" status="{{resData.like_status}}" bind:like="onlike"/>
+</view>
+<v-movie img="{{resData.image}}" content="{{resData.content}}" />
+<!-- <v-music img="{{resData.image}}" content="{{resData.content}}" /> -->
+<!-- <v-essay img="{{resData.image}}" content="{{resData.content}}" /> -->
+<v-navi class="navi" title="{{resData.title}}" first="{{first}}" latest="{{latest}}" bind:left="onNext" bind:right="onPrevious"/>
+</view>
