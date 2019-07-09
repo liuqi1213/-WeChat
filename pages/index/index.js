@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 import {ClassicModel} from "../../models/classic.js"
 import {LikeModel} from "../../models/like.js"
 let calssicmodel=new ClassicModel()
 let likemodel=new LikeModel()
+=======
+>>>>>>> 7fc184d8188584dccd3cdf35842df416284e6ff0
 import {HTTP} from "../../utils/http.js"
 let http=new HTTP()
 //index.js
@@ -13,9 +16,12 @@ Page({
    * 页面的初始数据
    */
   data: {
+<<<<<<< HEAD
    resData:null,
    first:false,
    latest:true
+=======
+>>>>>>> 7fc184d8188584dccd3cdf35842df416284e6ff0
     
   },
 
@@ -23,6 +29,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+<<<<<<< HEAD
 	 calssicmodel.getLatest((res)=>{
 		this.setData({
 			resData:res
@@ -87,11 +94,24 @@ onPrevious:function(event){
   //   })
   // },
 
+=======
+    http.request({
+    	url:"classic/latest",
+		success:(res)=>{
+			console.log(res)
+		}
+    })
+  },
+
+>>>>>>> 7fc184d8188584dccd3cdf35842df416284e6ff0
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
+<<<<<<< HEAD
     console.log(calssicmodel.isFirst());
+=======
+>>>>>>> 7fc184d8188584dccd3cdf35842df416284e6ff0
     
   },
 

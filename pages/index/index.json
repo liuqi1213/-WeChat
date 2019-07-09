@@ -1,5 +1,6 @@
 {
   "usingComponents": {
+<<<<<<< HEAD
     "v-epsoide":"/components/epsoide/index",
 		"v-like":"/components/like/index",
 		"v-movie":"/components/classic/movie/index",
@@ -8,3 +9,8 @@
 	}
 }
 
+=======
+    "v-like":"/components/like/index"
+  }
+}
+>>>>>>> 7fc184d8188584dccd3cdf35842df416284e6ff0

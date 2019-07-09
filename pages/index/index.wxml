@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <view class="con">
 <view class="head">
@@ -9,3 +10,6 @@
 <!-- <v-essay img="{{resData.image}}" content="{{resData.content}}" /> -->
 <v-navi class="navi" title="{{resData.title}}" first="{{first}}" latest="{{latest}}" bind:left="onNext" bind:right="onPrevious"/>
 </view>
+=======
+<v-like/>
+>>>>>>> 7fc184d8188584dccd3cdf35842df416284e6ff0

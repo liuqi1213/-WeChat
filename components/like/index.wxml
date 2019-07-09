@@ -1,5 +1,9 @@
 <view class='con' bindtap='onLike'>
 <image src="{{status?yesimg:noimg}}"></image>
 <text>{{count}}</text>
+<<<<<<< HEAD
 </view>
 
+=======
+</view>
+>>>>>>> 7fc184d8188584dccd3cdf35842df416284e6ff0
